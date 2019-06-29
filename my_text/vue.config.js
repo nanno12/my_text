@@ -5,7 +5,7 @@ function resolve (dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  baseUrl: '/page/',
+  baseUrl: 'Cindy/',
   chainWebpack: (config) => {
     const oneOfsMap = config.module.rule('scss').oneOfs.store
     oneOfsMap.forEach((item) => {
