@@ -1,8 +1,21 @@
-.rds {
-  border-radius: 100%;
-  @for $i from 0 through 20 {
+
+$border-radius-prefix: rds!default;
+@for $i from 0 through 100 {
+  .#{$border-radius-prefix} {
     &_#{$i} {
       border-radius: #{$i}px;
+    } 
+    &-left_#{$i} {
+      border-radius: #{$i}px 0px  0px #{$i}px;
+    } // 右
+    &-right_#{$i} {
+      border-radius: 0px #{$i}px #{$i}px 0px;
+    } // 上
+    &-top_#{$i} {
+      border-radius: #{$i}px #{$i}px 0px 0px;
+    } // 下
+    &-bottom_#{$i} {
+      border-radius: 0px 0px #{$i}px #{$i}px ;
     }
   }
 }

@@ -3,7 +3,7 @@
   &-auto {
     height: auto;
   }
-  @for $i from 0 through 100 {
+  @for $i from 0 through 200 {
     &_#{$i} {
       height: #{$i}px;
     }

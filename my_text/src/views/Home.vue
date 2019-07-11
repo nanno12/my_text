@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="w_50 h_32 inline-block co_f6" >3333</div>
     <el-form
       :model="ruleForm"
       :rules="rules"

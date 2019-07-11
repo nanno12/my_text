@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-// import Text from './views/Text.vue'
+// import reachargReturn from './views/reachargReturn.vue'
 
 Vue.use(Router)
 
@@ -10,16 +10,7 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: Home,
-      // children:[
-      //   {
-      //     path: '/text',
-      //     name: 'Text',
-      //     component: function () { 
-      //       return import(/* webpackChunkName: "text" */ './views/Text.vue')
-      //     }
-      //   }
-      // ]
+      component: Home
     },
     {
       path: '/about',
@@ -35,5 +26,12 @@ export default new Router({
         return import(/* webpackChunkName: "text" */ './views/Text.vue')
       }
     },
+    {
+      path: '/reachargReturn',
+      name: 'reachargReturn',
+      component: function () { 
+        return import(/* webpackChunkName: "reachargReturn" */ './views/pages/rechargeReturn.vue')
+      }
+    }
   ]
 })

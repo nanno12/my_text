@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>修改按钮</title>
+    <desc>Created with Sketch.</desc>
+    <g id="---账户管理---" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-2账户管理--刷卡成功" transform="translate(-947.000000, -534.000000)" fill-rule="nonzero">
+            <g id="分组-13" transform="translate(22.000000, 464.000000)">
+                <g id="分组-8" transform="translate(14.000000, 31.000000)">
+                    <g id="分组-19" transform="translate(911.000000, 39.000000)">
+                        <path d="M8,1 L3,1 C1.8954305,0.999999999 0.999999999,1.8954305 0.999999999,3 L1,13 C1,14.1045695 1.8954305,15 3,15 L13,15 C14.1045695,15 15,14.1045695 15,13 L15,8.00000002" id="路径-2" stroke="#5175F4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <g id="分组-32" transform="translate(10.303301, 5.596194) rotate(-45.000000) translate(-10.303301, -5.596194) translate(4.803301, 4.596194)" fill="#5175F4">
+                            <g id="分组-29" transform="translate(-0.000000, 0.000000)">
+                                <path d="M1.44322168,0.00717252778 L8.63000752,0.0100270848 L8.63000752,1.51002703 L1.44322168,1.50717247 L0.225112947,0.793551108 C0.177459906,0.765633872 0.161460873,0.704372058 0.189378109,0.656719016 C0.199120654,0.640089079 0.213461398,0.62662888 0.23067454,0.617958255 L1.44322168,0.00717252778 Z" id="矩形"></path>
+                                <path d="M9,9.09494702e-13 L10.25,9.09494702e-13 C10.6642136,9.09418612e-13 11,0.335786438 11,0.75 L11,0.75 C11,1.16421356 10.6642136,1.5 10.25,1.5 L9,1.5 L9,9.09494702e-13 Z" id="矩形-copy-3"></path>
+                            </g>
+                        </g>
+                        <path d="M4.02690663,11.1275911 L12,11.1275911" id="路径-7" stroke="#5175F4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
