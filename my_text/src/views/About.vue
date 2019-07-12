@@ -5,52 +5,58 @@
       <button @click="nuo">nuozi</button>
     </div>
     <div id="app">
-      <FooterBar v-if="isShow"/>
+      <!-- <FooterBar v-if="isShow"/> -->
+    </div>
+    <el-input v-model="oginName" 
+    placeholder="账号" 
+    @keyup.enter.native="doLogin"></el-input>
+    <div @click.ctrl="doLogin">点我ctrl</div>
+    <input @keyup.ctrl="nuo">
+    <input type="text" @keydown="show($event)">
+    <i class="icon" @mouseenter="enter(index)" @mouseleave="leave()">hahahah</i>
+    <div v-show="seen&&index==current" class="index-show">
+      <div  class="tip_Wrapinner">item.det</div>
     </div>
   </div>
 </template>
 <script>
 import {mapState,mapGetters,mapActions} from 'vuex'; //先要引入
 import FooterBar from '../components/HelloWorld'
-import config from '../config/index.js'
+// import config from '../config/index.js'
 export default {
   data () {
     return {
+      oginName:'',
+      seen:false
+
     }
   },
   components:{
     FooterBar:FooterBar
   },
-  computed:{
-    ...mapState({  //这里的...是超引用，ES6的语法，意思是state里有多少属性值我可以在这里放多少属性值
-      isShow:state=>state.texte1.showFooter //注意这些与上面的区别就是state.texte1,
-                                                  //里面定义的showFooter是指texte1.js里state的showFooter
-    }),
-    //你也可以用下面的mapGetters来获取isShow的值，貌似下面的更简洁
-    /*...mapGetters('texte1',{ //texte1指的是modules文件夹下的texte1.js模块
-         isShow:'isShow' //第一个isShow是我自定义的只要对应template里v-if="isShow"就行，
-                         //第二个isShow是对应的texte1.js里的getters里的isShow
-      })*/
-  },
-  watch:{
-    $route(to,from){
-      console.log(to,'totototototo');
-      console.log('totototototo');
-      if(to.name=='book'||to.name=='my'){
-        //这里改为'texte1/showFooter',//意思是指texte1.js里actions里的showFooter方法
-        this.$store.dispatch('texte1/showFooter') 
-      }else{
-        this.$store.dispatch('texte1/hideFooter') //同上注释
-      }
-    }
-  },
   methods:{
+    enter(index){
+        this.seen = true;
+        // this.current = index;
+      },
+      leave(){
+        this.seen = false;
+        // this.current = null;
+      },
+    show(ev){
+      console.log(ev.keyCode);
+      
+    },
     nuo(){
       console.log('傻逼');
       // const hahaha = this.$store.state.showFooter
       // const hahaha = this.$store.commit('show')
       // const hahaha = this.$store.dispatch('hideFooter')this.$store.dispatch('showFooter')
       // console.log(hahaha)
+      
+    },
+    doLogin(){
+      console.log('回车事件成功');
       
     }
   }
