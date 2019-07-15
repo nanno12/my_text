@@ -32,6 +32,13 @@ export default new Router({
       component: function () { 
         return import(/* webpackChunkName: "reachargReturn" */ './views/pages/rechargeReturn.vue')
       }
+    },
+    {
+      path: '/page',
+      name: 'Page',
+      component: function () { 
+        return import(/* webpackChunkName: "reachargReturn" */ './views/vue-compoent/Page.vue')
+      }
     }
   ]
 })
