@@ -1,13 +1,11 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import text from './modules/text'
-import text1 from './modules/text1'
 Vue.use(Vuex);
 
 export default new Vuex.Store({
     modules:{
-      text,
-      text1
+      // text,
+      // text1
     }
 });
 // import Vue from 'vue'

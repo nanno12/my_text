@@ -60,7 +60,6 @@ import axios from 'axios'
     },
   created () {
     this.queryChargeItemsList()
-    this.nuozi()
   },
   methods: {
     async queryChargeItemsList () {
@@ -96,11 +95,7 @@ import axios from 'axios'
       //   })
       // }
     },
-    nuozi(){
-      axios.this.api.user_list.then(res => {
-          console.log(res,'成功')
-        })
-    },
+   
     handleRowTable(params){
       console.log(params);
       this.$parent.handleRowTable(params)
