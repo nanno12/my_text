@@ -564,7 +564,6 @@ export default {
     }
   },
   components: { // 声明子组件
-  // Text,
   Home,
   About
  },

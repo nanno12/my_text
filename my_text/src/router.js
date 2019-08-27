@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
+// import Home from './views/style-ui/buttom.vue'
+// import Select from './views/vue-compoent/select.vue' 
 // import reachargReturn from './views/reachargReturn.vue'
+import Directive from './views/vue-compoent/directive.vue'
 
 Vue.use(Router)
 
@@ -9,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'directive',
+      component: Directive
     },
     {
       path: '/about',
