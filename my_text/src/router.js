@@ -1,25 +1,44 @@
 import Vue from 'vue'
-import Router from 'vue-router'
+import VueRouter from 'vue-router'
 // import Home from './views/style-ui/buttom.vue'
 // import Select from './views/vue-compoent/select.vue' 
 // import reachargReturn from './views/reachargReturn.vue'
 // import Directive from './views/vue-compoent/directive.vue'
-import TernaryOperator from './views/vue-compoent/TernaryOperator.vue'
+import Vuex from './views/vue-compoent/Vuex.vue'
+// import login from './views/vue-compoent/page/login.vue'
+import index from './views/vue-compoent/page/index.vue'
+// import TernaryOperator from './views/vue-compoent/TernaryOperator.vue'
 
-Vue.use(Router)
-
-export default new Router({
+Vue.use(VueRouter)
+const router = new VueRouter({
+  base:'/',
   routes: [
     {
-      path: '/',
-      name: 'TernaryOperator',
-      component: TernaryOperator
+      path: '/Vuex',
+      name: 'Vuex',
+      component: function () { 
+        return import(/* webpackChunkName: "Vuex" */ './views/vue-compoent/Vuex.vue')
+      }
     },
     {
       path: '/about',
       name: 'about',
       component: function () { 
         return import(/* webpackChunkName: "about" */ './views/About.vue')
+      }
+    },
+    {
+      path: '/',
+      name: 'index',
+      component: function () { 
+        return import(/* webpackChunkName: "index" */ './views/vue-compoent/page/index.vue')
+      }
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: function () { 
+        return import(/* webpackChunkName: "login" */ './views/vue-compoent/page/login.vue')
       }
     },
     {
@@ -45,3 +64,4 @@ export default new Router({
     }
   ]
 })
+export default router
