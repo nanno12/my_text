@@ -2651,6 +2651,11 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
+finger-mover@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.npm.taobao.org/finger-mover/download/finger-mover-1.4.3.tgz#388effbd0c8b45edd2190661daecd0be6cce3844"
+  integrity sha1-OI7/vQyLRe3SGQZh2uzQvmzOOEQ=
+
 flat-cache@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/flat-cache/download/flat-cache-2.0.1.tgz#5d296d6f04bda44a4630a301413bdbc2ec085ec0"
@@ -5971,6 +5976,11 @@ schema-utils@^1.0.0:
     ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
+scroll-flip-page@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/scroll-flip-page/download/scroll-flip-page-1.1.1.tgz#46698278f239f5fdc3820c07f8543b948e1bceb2"
+  integrity sha1-RmmCePI59f3DggwH+FQ7lI4bzrI=
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.npm.taobao.org/scss-tokenizer/download/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
@@ -6143,6 +6153,11 @@ simple-swizzle@^0.2.2:
   integrity sha1-pNprY1/8zMoz9w0Xy5JZLeleVXo=
   dependencies:
     is-arrayish "^0.3.1"
+
+simulation-scroll-y@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.npm.taobao.org/simulation-scroll-y/download/simulation-scroll-y-1.4.3.tgz#bdb816176e7904f9b93df08eb8b00c762e13cffd"
+  integrity sha1-vbgWF255BPm5PfCOuLAMdi4Tz/0=
 
 slash@^1.0.0:
   version "1.0.0"

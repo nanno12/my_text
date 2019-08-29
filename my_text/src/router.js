@@ -3,7 +3,8 @@ import Router from 'vue-router'
 // import Home from './views/style-ui/buttom.vue'
 // import Select from './views/vue-compoent/select.vue' 
 // import reachargReturn from './views/reachargReturn.vue'
-import Directive from './views/vue-compoent/directive.vue'
+// import Directive from './views/vue-compoent/directive.vue'
+import TernaryOperator from './views/vue-compoent/TernaryOperator.vue'
 
 Vue.use(Router)
 
@@ -11,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'directive',
-      component: Directive
+      name: 'TernaryOperator',
+      component: TernaryOperator
     },
     {
       path: '/about',
