@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+    <!-- 定义模板 -->
+    <template id="myAccount">
+        <div>
+            <h2>登录页面</h2>
+            <h3>注册页面</h3>
+        </div>
+    </template>
+
+    <div id="app">
+        <!-- 使用组件 -->
+        <account> </account>
+    </div>
+
+    <script>
+
+        //定义、注册组件
+        Vue.component('account', {
+            template: '#myAccount'    // template 是 Vue 中的关键字，不能改。
+        });
+
+        new Vue({
+            el: '#app'
+        });
+    </script>
+</body>
+
+</html>
