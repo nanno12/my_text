@@ -29,18 +29,18 @@ Vue.use(ElementUI);
 // })
 // 导航守卫
 // Vue.prototype.$store = store
-router.beforeEach((to, from,next)=>{
-  console.log(store.state,'nextnext');
-  if (store.state.userInfo || to.path === '/login') {
-    console.log('index');
-    next()
-  } else {
-    console.log('login');
-    next({
-      path:'/login'
-    })
-  }
-})
+// router.beforeEach((to, from,next)=>{
+//   console.log(store.state,'nextnext');
+//   if (store.state.userInfo || to.path === '/login') {
+//     console.log('index');
+//     next()
+//   } else {
+//     console.log('login');
+//     next({
+//       path:'/login'
+//     })
+//   }
+// })
 // 全局定义自定义指令
 Vue.directive('tack',{
   bind(el,binding,vnode){

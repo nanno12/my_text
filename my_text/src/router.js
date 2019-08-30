@@ -11,7 +11,7 @@ import index from './views/vue-compoent/page/index.vue'
 
 Vue.use(VueRouter)
 const router = new VueRouter({
-  base:'/',
+  base:'/deReordering',
   routes: [
     {
       path: '/Vuex',
@@ -25,6 +25,20 @@ const router = new VueRouter({
       name: 'about',
       component: function () { 
         return import(/* webpackChunkName: "about" */ './views/About.vue')
+      }
+    },
+    // {
+    //   path: '/deReordering',
+    //   name: 'DeReordering',
+    //   component: () => import(/* webpackChunkName: "DeReordering" */ './views/jsDome/DeReordering.vue'),
+    //   meta: { title: '数组去重排序', requireAuth: true },
+    //   children: []
+    // },
+    {
+      path: '/deReordering',
+      name: 'DeReordering',
+      component: function () { 
+        return import(/* webpackChunkName: "DeReordering" */ './views/jsDome/DeReordering.vue')
       }
     },
     {
