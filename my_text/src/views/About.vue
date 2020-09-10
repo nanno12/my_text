@@ -21,7 +21,6 @@
 </template>
 <script>
 import {mapState,mapGetters,mapActions} from 'vuex'; //先要引入
-import FooterBar from '../components/HelloWorld'
 // import config from '../config/index.js'
 export default {
   data () {

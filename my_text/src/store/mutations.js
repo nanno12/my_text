@@ -1,9 +1,11 @@
 export default {
   login (state,v) {
-    state.userInfo = v
+    console.log('statemutations',state)
+    state.userInfo = '23'
   },
   setVipInfo (state,v) {
-    state.userState = v.userState
-    state.vipValue = v.vipValue
+    console.log('vvv',state,v)
+    // state.userState = v.userState
+    // state.vipValue = v.vipValue
   }
 }
