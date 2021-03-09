@@ -1,7 +1,7 @@
 $margin:mg!default;
 $margin-x:-x!default;
 $margin-y:-y!default;
-@for $i from 0 through 40 {
+@for $i from 0 through 100 {
   .#{$margin} {
     margin: #{$i}px;
     &#{$margin-x} {

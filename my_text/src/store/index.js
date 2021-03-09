@@ -1,20 +1,15 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import finance from './modules/finance'
-import page from './modules/page'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import state from './state'
+import mutations from './mutations'
+import getters from './getters'
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
-const state = {
-  account: {},
-  auth: ''
-}
-
-export default new Vuex.Store({
+const store = new Vuex.Store( {
   state,
-  modules: {
-    finance,
-    page
-  }
-  // plugins: [createPersistedState()]
+  mutations,
+  getters
 })
+
+export default store

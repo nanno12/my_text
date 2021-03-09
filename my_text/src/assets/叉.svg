@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>叉</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M308.2,153 L715.296017,153 C719.272467,153 722.496017,156.22355 722.496017,160.2 L722.496017,617.8 C722.496017,621.77645 719.272467,625 715.296017,625 L308.2,625 C304.22355,625 301,621.77645 301,617.8 L301,160.2 C301,156.22355 304.22355,153 308.2,153 Z" id="path-1"></path>
+        <filter x="-5.6%" y="-4.6%" width="111.2%" height="110.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.352941176   0 0 0 0 0.482352941   0 0 0 0 0.937254902  0 0 0 0.363308566 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="---账户管理---" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-3-4账户管理--充值" transform="translate(-683.000000, -171.000000)">
+            <g id="分组-64">
+                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0.45" x="0" y="0" width="1024" height="768"></rect>
+                <g id="Rectangle-7">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M301.675,207.572601 L721.821017,207.572601 L721.821017,157 C721.821017,155.163653 720.332364,153.675 718.496017,153.675 L305,153.675 C303.163653,153.675 301.675,155.163653 301.675,157 L301.675,207.572601 Z" id="Rectangle-7" stroke="#E9EFF4" stroke-width="1.35" fill="#E0E5F4"></path>
+                <path d="M694.978254,180.989351 L702.894429,173.17874 C703.383119,172.696574 703.364822,171.896304 702.853844,171.390959 C702.341534,170.886776 701.530566,170.868622 701.04185,171.349527 L693.125599,179.161399 L685.208017,171.349527 C684.719327,170.867335 683.908333,170.886776 683.397329,171.390959 C682.885045,171.896304 682.865443,172.695286 683.354159,173.17874 L691.271613,180.989351 L683.355464,188.79986 C682.866748,189.280739 682.88635,190.080908 683.397329,190.586353 C683.909638,191.091824 684.719327,191.109978 685.208017,190.627786 L693.125599,182.818463 L701.04185,190.627786 C701.530566,191.109978 702.341534,191.091824 702.853844,190.587641 C703.366127,190.083559 703.383119,189.282026 702.895811,188.79986 L694.978254,180.989351 Z" id="Fill-1" fill="#6C7B8A"></path>
+            </g>
+        </g>
+    </g>
+</svg>
